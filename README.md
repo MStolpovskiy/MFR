@@ -40,12 +40,21 @@ Les documents utilisent le fichier template `mfr.typ` pour harmoniser la mise en
 
 > Le style typographique de `mfr.typ` est conçu pour être conforme aux recommandations de la British Dyslexia Association.
 
+### Prerequisites
+
+just (installer avec `winget install casey.just`)
+Polices :
+- Verdana
+- Latin Modern Math
+
 ### Exemple d'utilisation
 
+Surveiller les modifications pendant la création
 ```bash
-# Compiler un support de cours
-typst compile Maths_CAP_1an.typ
+just watch Path\to\your\file.typ
+``` 
 
-# Surveiller les modifications pendant la création
-typst watch Sciences_CAP_2ans.typ
+Compiler les deux versions (élève et corrigée)
+```bash
+just build Path\to\your\file.typ
 ```

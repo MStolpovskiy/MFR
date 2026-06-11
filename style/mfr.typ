@@ -8,12 +8,12 @@
 #let mfr(
   mytitle: "",
   mysubtitle: "",
-  corrigee: false,
+  corrigee: sys.inputs.at("corrigee", default: "false"),
   body
 ) = context {
 
   // Active le mode moniteur
-  if corrigee {
+  if corrigee!="false" {
     moniteur.update(true)
   }
 
@@ -169,11 +169,12 @@
 }
 
 // Meme que answerline, mais sans ligne
+// Attention, ça ne va pas marcher sur le fond coloré
 #let invis_answer(answer) = context {
   if moniteur.get() {
     text(fill: blue, answer)
   } else {
-    text(opacity: 0%, answer)
+    text(fill: white, answer)
   }
 }
 

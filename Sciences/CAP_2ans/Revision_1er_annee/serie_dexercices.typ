@@ -3,7 +3,6 @@
 #mfr(
   mytitle: "Sciences - CAP 1ère année",
   mysubtitle: "Mission spatiale",
-  corrigee: true,
 )[
 
 = 🚀 Exercices

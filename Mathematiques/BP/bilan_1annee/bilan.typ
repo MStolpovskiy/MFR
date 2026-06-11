@@ -3,7 +3,6 @@
 #show: doc => mfr(
   mytitle: "Bilan Mathématiques",
   mysubtitle: "1ère année BP",
-  corrigee: true,
 )[
 
 *Nom : #formline(length: 5cm)  Prénom : #formline(length: 5cm)*
