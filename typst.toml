@@ -1,6 +1,0 @@
-[package]
-name = "mfr-docs"
-version = "0.1.0"
-
-[compile]
-root = "."
