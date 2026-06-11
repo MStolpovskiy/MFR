@@ -36,7 +36,9 @@ Recompile automatiquement le document chaque fois que le fichier est modifié. I
 
 ### Template
 
-Les documents utilisent le fichier template `style.typ` pour harmoniser la mise en forme. Ce fichier contient les paramètres de style, les polices et les macros réutilisables.
+Les documents utilisent le fichier template `mfr.typ` pour harmoniser la mise en forme. Ce fichier contient les paramètres de style, les polices et les macros réutilisables.
+
+> Le style typographique de `mfr.typ` est conçu pour être conforme aux recommandations de la British Dyslexia Association.
 
 ### Exemple d'utilisation
 
